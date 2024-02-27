@@ -1,2 +1,2 @@
 # Ahorcados
-Clasico Juego del Ahorcados
+**Clasico Juego del Ahorcados**
