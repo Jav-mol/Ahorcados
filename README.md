@@ -15,6 +15,8 @@ Este es un juego de ahorcados simple desarrollado en Python. El juego permite a 
 2. Asegúrate de tener Python 3 instalado en tu sistema.
 3. Desde la terminal, navega al directorio donde se encuentra el archivo main.py.
 4. Ejecuta el juego utilizando el siguiente comando:
-### Python3 main.py
+```
+Python3 main.py
+```
 - Configuración
 El juego utiliza un archivo JSON llamado palabras.json que contiene la lista de palabras disponibles para adivinar. Puedes modificar este archivo para agregar nuevas palabras o ajustar la lista según tus preferencias.
