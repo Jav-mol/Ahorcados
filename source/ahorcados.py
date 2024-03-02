@@ -1,15 +1,20 @@
 import os, time
-from source.palabra import Palabra, Vidas
+from source.clases import Palabra, Vidas
 
 titulo = f"{''.center(35,'~')}\n{'AHORCADOS '.center(35,'-')}"
 
 class Ahorcados:
     
-    def __init__(self) -> None:
-            self.palabra = Palabra().palabra_aleatoria()
-            self.vidas = Vidas().dificultad()
-            self.palabra_final = ''
-            
+    #def __init__(self) -> None:
+    #        self.palabra = Palabra().palabra_aleatoria()
+    #        self.vidas = Vidas().dificultad()
+    #        self.palabra_final = ''
+    #        
+
+    palabra = Palabra().palabra_aleatoria()
+    vidas = Vidas().dificultad()
+    palabra_final = ''
+
     def menu(self):
         os.system('clear')     
         print(titulo)
