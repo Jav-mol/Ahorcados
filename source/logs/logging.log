@@ -1,3 +1,9 @@
 [main.py] | DEBUG - 6 | 2024/02/27 03:44:14 | Message: Inicio del juego
 [main.py] | DEBUG - 10 | 2024/02/27 03:44:29 | Message: Fin del juego
 [clases.py] | DEBUG - 53 | 2024/03/02 01:57:05 | Message: Error: invalid literal for int() with base 10: 'q'
+[main.py] | DEBUG - 6 | 2024/03/02 02:21:23 | Message: Inicio del juego
+[main.py] | DEBUG - 10 | 2024/03/02 02:21:45 | Message: Fin del juego
+[main.py] | DEBUG - 6 | 2024/03/02 02:23:05 | Message: Inicio del juego
+[main.py] | DEBUG - 10 | 2024/03/02 02:23:49 | Message: Fin del juego
+[main.py] | DEBUG - 6 | 2024/03/02 02:24:34 | Message: Inicio del juego
+[main.py] | DEBUG - 10 | 2024/03/02 02:25:13 | Message: Fin del juego

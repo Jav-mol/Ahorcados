@@ -1,9 +1,6 @@
 import json, random, os, time, sys
-#from source.logs.logger import logging
-#from source.diagramas import *
-from logs.logger import logging
-from diagramas import *
-
+from source.logs.logger import logging
+from source.diagramas import *
 
 class Palabra:
     

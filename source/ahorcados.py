@@ -1,5 +1,5 @@
 import os, time
-from source.clases import Palabra, Vidas
+from source.clases import Palabra, Vidas, Diagramas
 
 titulo = f"{''.center(35,'~')}\n{'AHORCADOS '.center(35,'-')}"
 
@@ -8,9 +8,11 @@ class Ahorcados:
     palabra = Palabra().palabra_aleatoria()
     vidas = Vidas().dificultad()
     palabra_final = ''
-
+    grafico = Diagramas(vidas)
+    
     def menu(self):
-        os.system('clear')     
+        os.system('clear')   
+        self.grafico.diagramas(self.vidas)  
         print(titulo)
         print(f"Palabra: {self.palabra_final} | Vidas: {self.vidas}")         
         letra = input("Ingrese una letra: ").lower()          
@@ -18,11 +20,13 @@ class Ahorcados:
     
     def ganador(self):
         os.system('clear')     
+        self.grafico.diagramas(self.vidas)  
         print(titulo)
         print(f'Ganaste | Vidas: {self.vidas} - Palabra: {self.palabra_final} \n{"".center(35,"~")}')
         
     def perdedor(self, end, count, word):
         os.system('clear')     
+        self.grafico.diagramas(self.vidas)  
         print(titulo)
         print(f'Perdiste: {end} - {word} | Vidas: {count}')
     
