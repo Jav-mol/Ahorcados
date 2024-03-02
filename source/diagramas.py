@@ -220,7 +220,8 @@ dificil = {
     """
 }
 
-for i in range(15):
-    print(facil[i])
-#print(facil[1])
+if __name__ == '__main__':
+    for i in range(15):
+        print(facil[i])
+    #print(facil[1])
     

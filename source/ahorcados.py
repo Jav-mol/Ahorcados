@@ -5,12 +5,6 @@ titulo = f"{''.center(35,'~')}\n{'AHORCADOS '.center(35,'-')}"
 
 class Ahorcados:
     
-    #def __init__(self) -> None:
-    #        self.palabra = Palabra().palabra_aleatoria()
-    #        self.vidas = Vidas().dificultad()
-    #        self.palabra_final = ''
-    #        
-
     palabra = Palabra().palabra_aleatoria()
     vidas = Vidas().dificultad()
     palabra_final = ''

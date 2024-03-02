@@ -1,11 +1,12 @@
 import json, random, os, time, sys
-from source.logs.logger import logging
+#from source.logs.logger import logging
+#from source.diagramas import *
+from logs.logger import logging
+from diagramas import *
 
 
 class Palabra:
-    def __init__(self) -> None:
-        self.palabra = self.palabra_aleatoria()
-
+    
     def palabra_aleatoria(self):
         
         with open('source/palabras.json') as file:
@@ -57,7 +58,23 @@ class Vidas:
         os.system('clear')
         return vidas
 
+class Diagramas:
+    def diagrama(self, vidas):
+        if vidas == 15:
+            return facil        
+        elif vidas == 10:
+            return medio
+        elif vidas == 5:
+            return dificil
+            
 if __name__ == '__main__':
-    x = Vidas()
-    print(x.dificultad())
+    try:
+        
+        y = Vidas().dificultad()
+        x = Diagramas().diagrama(y)
+        #print(type(x.get(1)))
+        print(x.get(1))
+        
+    except Exception as e:
+        print(f'Error: {e}')
     
