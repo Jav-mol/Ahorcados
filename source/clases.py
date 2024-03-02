@@ -59,22 +59,24 @@ class Vidas:
         return vidas
 
 class Diagramas:
-    def diagrama(self, vidas):
-        if vidas == 15:
+    def __init__(self, vidas) -> None:
+        self.vidas = vidas
+        
+    def graficos(self):
+        if self.vidas == 15:
             return facil        
-        elif vidas == 10:
+        elif self.vidas == 10:
             return medio
-        elif vidas == 5:
+        elif self.vidas == 5:
             return dificil
+    
+    def diagramas(self, vidas):
+        grafico = self.graficos()
+        print(grafico.get(vidas))
             
 if __name__ == '__main__':
     try:
-        
-        y = Vidas().dificultad()
-        x = Diagramas().diagrama(y)
-        #print(type(x.get(1)))
-        print(x.get(1))
-        
+        pass
     except Exception as e:
         print(f'Error: {e}')
     
