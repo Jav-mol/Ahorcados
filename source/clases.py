@@ -56,15 +56,15 @@ class Vidas:
         return vidas
 
 class Diagramas:
-    def __init__(self, vidas) -> None:
-        self.vidas = vidas
+    def __init__(self, dificultad) -> None:
+        self.dificultad = dificultad
         
     def graficos(self):
-        if self.vidas == 15:
+        if self.dificultad == 15:
             return facil        
-        elif self.vidas == 10:
+        elif self.dificultad == 10:
             return medio
-        elif self.vidas == 5:
+        elif self.dificultad == 5:
             return dificil
     
     def diagramas(self, vidas):

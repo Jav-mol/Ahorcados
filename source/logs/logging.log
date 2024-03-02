@@ -49,3 +49,8 @@
 [main.py] | DEBUG - 10 | 2024/03/02 02:57:17 | Message: Fin del juego
 [main.py] | DEBUG - 6 | 2024/03/02 02:57:24 | Message: Inicio del juego
 [main.py] | DEBUG - 10 | 2024/03/02 02:57:34 | Message: Fin del juego
+[clases.py] | DEBUG - 50 | 2024/03/02 03:00:58 | Message: Error: invalid literal for int() with base 10: 'j'
+[main.py] | DEBUG - 6 | 2024/03/02 03:01:04 | Message: Inicio del juego
+[main.py] | DEBUG - 10 | 2024/03/02 03:01:55 | Message: Fin del juego
+[main.py] | DEBUG - 6 | 2024/03/02 03:05:58 | Message: Inicio del juego
+[main.py] | DEBUG - 10 | 2024/03/02 03:06:32 | Message: Fin del juego
