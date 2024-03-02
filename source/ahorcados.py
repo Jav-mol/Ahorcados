@@ -28,7 +28,7 @@ class Ahorcados:
         os.system('clear')     
         self.grafico.diagramas(self.vidas)  
         print(titulo)
-        print(f'Perdiste: {end} - {word} | Vidas: {count}')
+        print(f'Perdiste: {end} - {word} | Vidas: {count} \n{"".center(35,"~")}')
     
     def ahorcados(self):
         resul = list("_"*len(self.palabra))    

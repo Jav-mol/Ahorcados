@@ -69,7 +69,8 @@ class Diagramas:
     
     def diagramas(self, vidas):
         grafico = self.graficos()
-        print(grafico.get(vidas))
+        print(''.center(35,'~'))
+        print(grafico.get(vidas, ''))
             
 if __name__ == '__main__':
     try:
